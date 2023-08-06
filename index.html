@@ -1,0 +1,426 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html><head>
+<!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MN4TCCZ');</script>
+<!-- End Google Tag Manager -->
+  <meta charset="UTF-8">
+
+  <meta http-equiv="content-language" content="es">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  
+  <meta name="description" content="Clases particulares de GNU/Linux. Mejora las notas en tu instituto o univesidad, agenda una clase via zoom de forma gratuita.">
+
+  
+  <meta name="keywords" content="clases; Linux, comandos, ejercicios, gratis, libros, clases, particulares, profesor, zoo, virtual, GNU, m&aacute;quina, universidad, instituto, temario, laboratorio asesoria, descarga,servicio">
+
+  <meta name="msvalidate.01" content="8142FFB338915FC39EF7827BFC022DA6">
+
+  <style>
+body {
+background-color: #333333;
+}
+ul {
+padding: 0;
+list-style-type: none;
+}
+li.gray{
+color: gray;
+
+}
+li {
+border-left: 0.3em solid;
+width: 18em;
+height: 2em;
+color: yellow;
+position: relative;
+margin-top: 1em;
+cursor: pointer;
+}
+li::after {
+
+content: '';
+position: absolute;
+width: inherit;
+border-left: inherit;
+z-index: -1;
+}
+li::before {
+height: 80%;
+top: 10%;
+left: calc(-0.15em - 0.08em * 2);
+filter: brightness(0.8);
+}
+li::after {
+height: 60%;
+top: 20%;
+left: calc(-0.15em * 2 - 0.08em * 3);
+filter: brightness(0.6);
+
+}
+li span {
+position: relative;
+height: 120%;
+top: -10%;
+box-sizing: border-box;
+border: 0.08em solid;
+background-color: #333;
+display: flex;
+align-items: center;
+justify-content: center;
+font-family: sans-serif;
+transform: translateX(calc(-0.15em * 3 - 0.08em * 2));
+transition: 0.3s;
+}
+li:hover span {
+transform: translateX(0.15em);
+}
+ul.notype {
+list-style-type: none;
+}
+a:link {
+color: yellow;
+text-decoration: none;
+}
+a:visited {
+color: green;
+text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+color: red;
+text-decoration: none;
+}
+
+/* selected link */
+a:active {
+color: yellow;
+text-decoration: none;
+}
+
+a.noneBlack {
+color: black;
+text-decoration: none;
+}
+
+a.noneWhite {
+color: white;
+text-decoration: none;
+font-size: 23px;
+font-family:consolas;
+}
+
+div.medium {
+margin: 4em;
+width: 40%;
+float: left;
+}
+
+div.center80 {
+margin: 0 auto;
+width: 80%;
+
+}
+
+div.quarter30 {
+margin-left: 2em;
+margin-top: 3em;
+width: 30%;
+float: left;
+}
+div.quarter10 {
+margin: 2em;
+width: 10%;
+float: left;
+}
+
+div.center {
+margin: 2em;
+width: 90%;
+float: left;
+text-align: center;
+}
+
+div.centerWhite {
+margin: 1em;
+width: 90%;
+float: left;
+background-color: #f7f7f7;
+}
+
+
+h1 {
+color: white;
+text-align: center;
+text-shadow: #6da1b0 5px 5px 21px;
+margin-top: 2em;
+font-family: consolas;
+}
+h2 {
+color: white;
+text-align: center;
+text-shadow: #ffffff 1px 2px 2px;
+}
+
+
+h2.blue {
+color: blue;
+text-align: center;
+text-shadow: #3285cb 1px 1px 1px;
+font-size: 30px;
+font-family: consolas;
+
+}
+h2.white {
+color: white;
+text-align: center;
+text-shadow: #6da1b0 5px 5px 20px;
+font-size: 30px;
+font-family: consolas;
+
+}
+
+h3 {
+color: white;
+text-align: center;
+text-shadow: #6da1b0 5px 5px 20px;
+margin-top: 2em;
+font-family: consolas;
+font-size: 25px;
+}
+
+p {
+font-family: verdana;
+font-size: 20px;
+color: #fdfdfd;
+}
+
+p.p23 {
+font-family: consolas;
+text-shadow: #3285cb 1px 1px 1px;
+font-size: 23px;
+color: blue;
+font-weight: bold;
+}
+p.gray {
+font-size: 20px;
+font-family: courier new;
+color: #3c4247;
+}
+p.grayBold {
+padding:2em;
+font-weight:bold;
+font-size: 20px;
+font-family: courier new;
+color: #3c4247;
+}
+p.white {
+font-size: 20px;
+font-family: courier new;
+color: #ffffff;
+font-weight:bold;
+font-family: courier new;
+
+}
+
+
+  </style>
+  <title>Clases particulares de GNU/LINUX y redes de computadoras</title>
+
+
+</head><body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MN4TCCZ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<h1>Clases particulares de GNU/LINUX y redes de computadoras
+</h1>
+
+<br>
+
+<div id="center">
+<div class="medium"><img alt="clases linux" style="width: 400px; height: 484px;" src="images/linuxPilqar.webp">
+</div>
+<div class="medium">
+<br>
+<br>
+<ul class="notype">
+<li><span><a href="#tutorias">Tutor&iacute;as y clases particulares</a></span></li>
+<li><span><a href="#descargalibros">Descarga de libros gratuitos</a></span></li>
+<li><span><a href="#ejerciciospropuestos">Ejercicios propuestos</a></span></li>
+<li><span><a href="#comandoslinux">Comandos b&aacute;sicos</a></span></li>
+<li><span><a href="#contacto">Contacto</a></span></li>
+</ul>
+<br>
+<br>
+</div>
+</div>
+
+<div class="centerWhite">
+<div style="text-align: center; width: 286px; height: 276px;" class="medium"><img src="images/objetive.png"></div>
+<div class="medium">
+<p class="p23"><br>
+</p>
+<p class="p23">Si tu objetivo es mejorar las calificaciones en la
+Universidad o el instituto en los temas de redes de computadoras y
+GNU/linux.</p>
+<p class="p23">&iquest;Tienes consultas espec&iacute;ficas respecto a un tema o
+deseas alguna tutor&iacute;a sobre administraci&oacute;n de servidores?<br>
+</p>
+<br>
+</div>
+<div class="medium">
+<h2 class="blue"> &iquest;A qui&eacute;n esta dirigido este servicio?</h2>
+<p class="gray">Estudiantes de ingenier&iacute;a electr&oacute;nica <br>
+Estudiantes de inform&aacute;tica<br>
+Estudiantes de telecomunicaciones<br>
+Operadores de sistemas
+<br>
+P&uacute;blico en general</p>
+</div>
+<div class="medium">
+<h2 class="blue">&iquest;Qu&eacute; requisitos se necesitan?</h2>
+<p class="gray">Tener conocimientos b&aacute;sicos de computadoras<br>
+Tener una PC con conexi&oacute;n a internet<br>
+Disponibilidad de tiempo<br>
+Recursos para poder armar tu propia m&aacute;quina virtual<br>
+</p>
+</div>
+<img src="images/estudiante.gif" style="max-width: 100%;">
+</div>
+
+<div class="center"><img style="max-width: 100%;" alt="linux" src="images/linuxp1.png">
+</div>
+
+<div id="tutorias" class="centerWhite">
+<h2 class="blue">Asesor&iacute;a y clases de GNU/Linux</h2>
+<div class="quarter10"><img src="images/reloj.png"></div>
+<div class="quarter30">
+<p class="gray">Los horarios ser&aacute;n
+acordados con el estudiante conforme a sus necesidades, aprovechando la
+disponibilidad de tiempo, incluyendo fines de semana
+</p>
+<p class="gray"><br>
+</p>
+</div>
+<div class="quarter10"><img src="images/materiales.png">
+</div>
+<div class="quarter30">
+<p class="gray">Utilizamos herramientas
+open source, sobre m&aacute;quinas virtuales y servidores productivos</p>
+<span style="font-family: courier new;"><br>
+<br>
+<br>
+<br>
+<br>
+</span></div>
+<div class="quarter10"><img src="images/level.png"></div>
+<div class="quarter30">
+<p class="gray">No importa el nivel que tengas. Los temas tratados van desde  un nivel b&aacute;sico
+hasta nivel avanzado<br>
+</p>
+</div>
+<div class="quarter10"><img src="images/teacher.png"></div>
+<div class="quarter30">
+<p class="gray">Un tutor a tu disposici&oacute;n para resolver tus dudas y
+asesorias<br>
+</p>
+</div>
+</div>
+
+<div id="test" class="centerWhite">
+<div class="center"><img style="max-width: 100%;" src="images/linuxp.png"></div>
+<h2 class="blue">Temario</h2>
+<div class="center80">
+<br>
+<p class="gray">Instalaci&oacute;n de GNU/Linux: distribuciones Debian,
+Centos, Rocky, Ubuntu
+o Gentoo)</p>
+<p class="gray">Configuraci&oacute;n de m&aacute;quina virtual en Virtualbox</p>
+<p class="gray">Comandos b&aacute;sicos: less, mv, ls, touch, free, df, mkdir,
+grep, cat, cut, top, etc</p>
+<p class="gray">Comandos avanzados: ss, iptables,
+watch, nohup, etc.</p>
+<p class="gray">Aplicaciones: fail2ban, nmap, tcpdump, etc.&nbsp;</p>
+<p class="gray">Editores de texto: vi, vim, sed y nano.</p>
+<p class="gray">Servicios: openssh, dhcp, nginx, apache<br>
+</p>
+<p class="gray">Gesti&oacute;n de redes: nmap y tcpdump y telnet<br>
+</p>
+</div>
+</div>
+
+<div id="ejerciciospropuestos" class="centerWhite">
+<div class="center"><img style="max-width: 100%;" src="images/download.png"></div>
+<h2 class="blue">Descarga nuestro material de
+aprendizaje
+</h2>
+<p class="grayBold"><b><a class="noneBlack" href="docs/testbasicolinux.pdf">Descargar
+test 1</a></b></p>
+<h2 id="laboratorio" class="blue">Descarga laboratorios
+</h2>
+<p class="grayBold"><b><a class="noneBlack" href="docs/laboratoriobasicolinux.pdf">Descargar
+Laboratorio 1</a></b></p>
+</div>
+
+<div id="descargalibros" class="center"><b> <br>
+<br>
+<img style="width: 113px; height: 92px;" src="images/doc.png">
+</b>
+<h2 class="white"><b><b>Libros y manuales recomendados en
+espa&ntilde;ol<br>
+</b></b></h2>
+<p class="white"><b><b>Este es un listado de libros y
+manuales que
+se encuentran en la red los cuales
+recomiendo leer. Los puedes descargar de forma gratuita<br>
+</b></b></p>
+<b><b><br>
+</b></b>
+<br>
+<p><a class="noneWhite" href="https://softlibre.unizar.es/manuales/linux/868.pdf">Sistema
+operativo
+GNU/Linux b&aacute;sico</a>
+</p>
+<br>
+<p><a class="noneWhite" href="https://softlibre.unizar.es/manuales/linux/maint-guide.es.pdf">Gu&iacute;a
+del nuevo desarrollador de Debian</a>
+</p>
+<br>
+<p><a class="noneWhite" href="http://es.tldp.org/Manuales-LuCAS/LIPP2/lipp-2.0-beta.pdf">GNU/Linux:
+Instalaci&oacute;n y Primeros Pasos</a></p>
+<br>
+<p><a class="noneWhite" href="https://www.informatica.us.es/%7Eramon/articulos/Programacion-BASH">CURSO
+05-08
+PROGRAMACI&Oacute;N AVANZADA EN SHELL</a></p>
+<a class="noneWhite" href="https://www.informatica.us.es/%7Eramon/articulos/Programacion-BASH"><br>
+Programacion BASH</a>
+</div>
+
+<div id="comandoslinux" class="center">
+<h2 class="white"><b>Comandos &Uacute;tiles<br>
+</b></h2>
+
+<a class="noneWhite" href="docs/comandoslinux.pdf">Descargar comandos b&aacute;sicos</a><br>
+</div>
+
+<div id="contacto" class="center">
+<h3>Contacto<br>
+</h3>
+<p class="white">Con nuestras clases particulares un profesor
+podr&aacute; aclarar tus dudas. Las clases tienen modalidad virtual
+v&iacute;a Zoom y de manera interactiva aprender&aacute;s a utilizar
+herramientas GNU/Linux y redes de computadoras con simulador packet
+tracer. Escr&iacute;be tu consulta v&amp;iacutea whatsapp o e-mail.
+Recuerda que la primera clase de 1 hora es grauita.</p>
+
+<img src="images/teachercontact.webp"><img src="images/contact.webp">
+</div>
+
+</body></html>
